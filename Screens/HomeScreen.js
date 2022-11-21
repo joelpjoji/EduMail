@@ -78,7 +78,7 @@ const Home = ({navigation}) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F7F7F7',
+    backgroundColor: '#F7F6F6',
     marginTop: 10,
   },
   baseText: {
@@ -93,12 +93,12 @@ const styles = StyleSheet.create({
   listItem: {
     margin: 8,
     padding: 5,
-    backgroundColor: '#FFF',
+    backgroundColor: '#FFFF',
     width: '90%',
     flex: 1,
     alignSelf: 'center',
     flexDirection: 'row',
-    borderRadius: 5,
+    borderRadius: 15,
   },
 });
 

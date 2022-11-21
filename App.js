@@ -5,6 +5,7 @@ import Home from './Screens/HomeScreen';
 import ViewMail from './Screens/ViewMailScreen';
 import NewMail from './Screens/NewMailScreen';
 
+
 const App = () => {
   const Stack = createNativeStackNavigator();
 

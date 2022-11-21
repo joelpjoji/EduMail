@@ -139,7 +139,6 @@ const styles = StyleSheet.create({
   textoFooter: {
     flexWrap: 'wrap',
     textAlign: 'center',
-    color: '#b9b9b9',
     fontWeight: '500',
   },
 });

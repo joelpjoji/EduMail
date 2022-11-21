@@ -22,14 +22,14 @@ const NewMail = props => {
       </View>
       <View style={styles.emailInfos}>
         <View style={styles.emailInfosDetails}>
-          <TextInput style={styles.emailFrom} placeholder={'To:'}></TextInput>
+          <TextInput style={styles.emailFrom} placeholder={' To:'}></TextInput>
         </View>
       </View>
-      <TextInput style={styles.subject} placeholder={'Subject:'}></TextInput>
+      <TextInput style={styles.subject} placeholder={' Subject:'}></TextInput>
 
       <TextInput
         style={styles.emailbody}
-        placeholder={'Body:'}
+        placeholder={' Body:'}
         numberOfLines={5}></TextInput>
       <View style={styles.emailFooter}>
         <TouchableOpacity

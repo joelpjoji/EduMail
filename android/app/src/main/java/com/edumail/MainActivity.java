@@ -4,6 +4,7 @@ import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.ReactRootView;
 
+
 public class MainActivity extends ReactActivity {
 
   /**
@@ -24,6 +25,7 @@ public class MainActivity extends ReactActivity {
   protected ReactActivityDelegate createReactActivityDelegate() {
     return new MainActivityDelegate(this, getMainComponentName());
   }
+
 @Override
 protected void onCreate(Bundle savedInstanceState) {
   super.onCreate(null);
