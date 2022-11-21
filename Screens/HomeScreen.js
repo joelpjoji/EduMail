@@ -10,7 +10,15 @@ import {
   FlatList,
 } from 'react-native';
 import {useNavigation} from '@react-navigation/native';
-
+import {FloatingAction} from 'react-native-floating-action';
+const actions = [
+  {
+    text: 'Compose',
+    icon: require('./send.png'),
+    name: 'Compose',
+    position: 0,
+  },
+];
 
 const Home = ({navigation}) => {
   const [isLoading, setLoading] = useState(true);
@@ -53,6 +61,16 @@ const Home = ({navigation}) => {
           </TouchableOpacity>
         )}
       />
+      <TouchableOpacity
+        style={styles.buttons}
+        onPress={() => navigate('NewMail')}>
+        <FloatingAction
+          actions={actions}
+          onPressItem={() => {
+            navigate('NewMail');
+          }}
+        />
+      </TouchableOpacity>
     </View>
   );
 };
